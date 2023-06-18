@@ -1,0 +1,75 @@
+header{
+    background: #c0c0c0;
+    color: #000000;
+    
+}
+.nav-link{
+    color: black;
+}
+.nav-link active{
+    color: #000000 !important;
+}
+.card{
+    width: 250px;
+    height: 250px;
+    background: #d3d3d3;
+}
+#busqueda{
+    background-color: #24d800b4;
+    border-radius: 12px;
+    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#blogger{
+    background-color: #d1d1d1b4;
+    border-radius: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+a {
+    text-decoration: none;
+}
+footer{
+    background: #c0c0c0;
+    color: #000000;
+}
+#logo{
+    width: 17em;
+    height: 5em;
+}
+.titulo{
+    font-size: 15px;
+    padding-top: ;
+}
+#lgo{
+    width: 14em;
+    height: 2.7em;
+}
+#contacto{
+    background-color: #00b2df;
+    border-radius: 12px;
+    padding-left: 15px;
+    padding-right: 15px;   
+}
+
+@media screen and (max-width: 720px) {
+    #blogger{
+        margin-right: 5%;
+    }
+    #busqueda{
+        margin-left: 5%;
+    }
+    #prueba{
+        margin-left: 20%;
+    }
+    #lgo{
+        margin-top: 2px;
+        width: 11em;
+        height: 2em;
+    }
+    footer{
+        margin-top: 2em;
+    }
+
+}
